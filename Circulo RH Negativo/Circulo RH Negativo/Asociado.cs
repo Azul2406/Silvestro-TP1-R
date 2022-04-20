@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Circulo_RH_Negativo
 {
-    class Asociado: Persona
+    public class Asociado: Persona
     {
         private string categoria;
         //private int id; 

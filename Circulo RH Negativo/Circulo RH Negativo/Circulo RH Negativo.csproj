@@ -46,6 +46,7 @@
     <Compile Include="Asociado.cs" />
     <Compile Include="Cuota.cs" />
     <Compile Include="Donacion.cs" />
+    <Compile Include="Pedido.cs" />
     <Compile Include="Persona.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

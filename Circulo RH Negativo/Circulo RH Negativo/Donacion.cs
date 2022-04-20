@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Circulo_RH_Negativo
 {
-    class Donacion
+    public class Donacion
     {
         private int idDonacion;
         private DateTime fechaDonacion;
-        private double cantidadSangre;
+        
     }
 }

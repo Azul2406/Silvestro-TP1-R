@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace Circulo_RH_Negativo
 {
-    public class Cuota
+    public class Pedido
     {
-        private int idRecibo;
-        private double monto;
-        private DateTime fechaCobro;
-        private bool pagado;
+        private int idPedido;
+        private double cantidad;
+        private DateTime fechaEmision;
     }
 }
