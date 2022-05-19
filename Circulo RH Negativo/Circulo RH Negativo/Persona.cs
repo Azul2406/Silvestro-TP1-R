@@ -56,7 +56,7 @@ namespace Circulo_RH_Negativo
         public string Email { get; set; }
         public string TipoMedicacion { get; set; }
         public string GrupoSanguineo { get; set; }
-        public long Dni { get; set; }
+        public string Dni { get; set; }
         public DateTime FechaNacimiento { get; set; }
         public bool Medicacion { get; set; }
 

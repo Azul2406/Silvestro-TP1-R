@@ -19,8 +19,7 @@ namespace Circulo_RH_Negativo
             Console.WriteLine("Ingrese el apellido: ");
             persona1.Apellido = Console.ReadLine();
             Console.WriteLine("Ingrese el DNI: ");
-            string linea = Console.ReadLine();
-            persona1.Dni = long.Parse(linea);
+            persona1.Dni = Console.ReadLine();
             Console.WriteLine("Ingrese la localidad: ");
             persona1.Localidad = Console.ReadLine();
             Console.WriteLine("Ingrese el domicilio: ");
@@ -28,7 +27,7 @@ namespace Circulo_RH_Negativo
             Console.WriteLine("Ingrese el email: ");
             persona1.Email = Console.ReadLine();
             Console.WriteLine("Ingrese la fecha de nacimiento (aa-mm-dd): ");
-            linea = Console.ReadLine();
+            string linea = Console.ReadLine();
             persona1.FechaNacimiento = DateTime.Parse(linea);
             Console.WriteLine("Ingrese el grupo sanguineo: ");
             persona1.GrupoSanguineo = Console.ReadLine();
