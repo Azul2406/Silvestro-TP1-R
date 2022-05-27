@@ -10,39 +10,66 @@ namespace Circulo_RH_Negativo
     {
         static void Main(string[] args)
         {
-            Persona persona1 = new Persona();
+            int num;
+            Console.WriteLine("Circulo de Sangre RH Negativo.");
+            Console.WriteLine("Ingrese la opcion deseada.");
+            Console.WriteLine("1 (Agregar nuevo asociado)   \n2 (Realizar nuevo pedido) ");
+            string linea = Console.ReadLine();
+            num = int.Parse(linea);
+
+            switch (num)
+            {
+                case 1:
+                    Persona persona = new Persona();
+                    persona.NuevoAsociado();
+                    break;
+
+                default:
+                    Persona persona1 = new Persona();
+                    Pedido pedido = new Pedido();
+                    pedido.NuevoPedido();
+                    break;
+
+            }
+
+
+
+                   
+            
+           // persona.MostrarLista();
+
             //Persona persona2 = new Persona();
             //Persona persona3 = new Persona();
 
-            Console.WriteLine("Ingrese el nombre: ");
-            persona1.Nombre = Console.ReadLine();
-            Console.WriteLine("Ingrese el apellido: ");
-            persona1.Apellido = Console.ReadLine();
-            Console.WriteLine("Ingrese el DNI: ");
-            persona1.Dni = Console.ReadLine();
-            Console.WriteLine("Ingrese la localidad: ");
-            persona1.Localidad = Console.ReadLine();
-            Console.WriteLine("Ingrese el domicilio: ");
-            persona1.Domicilio = Console.ReadLine();
-            Console.WriteLine("Ingrese el email: ");
-            persona1.Email = Console.ReadLine();
-            Console.WriteLine("Ingrese la fecha de nacimiento (aa-mm-dd): ");
-            string linea = Console.ReadLine();
-            persona1.FechaNacimiento = DateTime.Parse(linea);
-            Console.WriteLine("Ingrese el grupo sanguineo: ");
-            persona1.GrupoSanguineo = Console.ReadLine();
-            Console.WriteLine("¿Toma alguna medicacion?: ");
-            linea = Console.ReadLine();
-            if (linea.Equals("si"))
-            {
-                persona1.Medicacion = true;
-            }
-            else
-            {
-                persona1.Medicacion = false;
-            }
-            Console.WriteLine("Si toma medicacion, ingrese cual: ");
-            persona1.TipoMedicacion = Console.ReadLine();
+            //Console.WriteLine("Ingrese el nombre: ");
+            //persona1.Nombre = Console.ReadLine();
+            //Console.WriteLine("Ingrese el apellido: ");
+            //persona1.Apellido = Console.ReadLine();
+            //Console.WriteLine("Ingrese el DNI: ");
+            //persona1.Dni = Console.ReadLine();
+            //Console.WriteLine("Ingrese la localidad: ");
+            //persona1.Localidad = Console.ReadLine();
+            //Console.WriteLine("Ingrese el domicilio: ");
+            //persona1.Domicilio = Console.ReadLine();
+            //Console.WriteLine("Ingrese el email: ");
+            //persona1.Email = Console.ReadLine();
+            //Console.WriteLine("Ingrese la fecha de nacimiento (aa-mm-dd): ");
+            //string linea = Console.ReadLine();
+            //persona1.FechaNacimiento = DateTime.Parse(linea);
+            //Console.WriteLine("Ingrese el grupo sanguineo: ");
+            //persona1.GrupoSanguineo = Console.ReadLine();
+            //Console.WriteLine("¿Toma alguna medicacion?: ");
+            //linea = Console.ReadLine();
+            //if (linea.Equals("si"))
+            //{
+            //    persona1.Medicacion = true;
+            //}
+            //else
+            //{
+            //    persona1.Medicacion = false;
+            //}
+            //Console.WriteLine("Si toma medicacion, ingrese cual: ");
+            //persona1.TipoMedicacion = Console.ReadLine();
 
 
             //persona1.Nombre = "Juan";
@@ -81,8 +108,8 @@ namespace Circulo_RH_Negativo
             //persona3.Medicacion = false;
             //persona3.TipoMedicacion = " ";
 
-            Asociado asociado1 = new Asociado();
-            asociado1.DefinirCategoria(persona1.FechaNacimiento, persona1.Medicacion);
+            //Asociado asociado1 = new Asociado();
+            //asociado1.DefinirCategoria(persona1.FechaNacimiento, persona1.Medicacion);
 
             //Asociado asociado2 = new Asociado();
             //asociado2.DefinirCategoria(persona2.FechaNacimiento, persona2.Medicacion);

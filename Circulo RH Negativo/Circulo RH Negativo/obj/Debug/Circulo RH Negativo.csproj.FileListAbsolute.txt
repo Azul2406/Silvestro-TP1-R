@@ -5,3 +5,10 @@ C:\Users\maria\source\repos\Circulo RH Negativo\Circulo RH Negativo\obj\Debug\Ci
 C:\Users\maria\source\repos\Circulo RH Negativo\Circulo RH Negativo\obj\Debug\Circulo RH Negativo.csproj.CoreCompileInputs.cache
 C:\Users\maria\source\repos\Circulo RH Negativo\Circulo RH Negativo\obj\Debug\Circulo RH Negativo.exe
 C:\Users\maria\source\repos\Circulo RH Negativo\Circulo RH Negativo\obj\Debug\Circulo RH Negativo.pdb
+C:\Users\maria\OneDrive\Documentos\3ro\Diseño de Sistemas\Silvestro-TP1-R\Circulo RH Negativo\Circulo RH Negativo\obj\Debug\Circulo RH Negativo.csproj.AssemblyReference.cache
+C:\Users\maria\OneDrive\Documentos\3ro\Diseño de Sistemas\Silvestro-TP1-R\Circulo RH Negativo\Circulo RH Negativo\obj\Debug\Circulo RH Negativo.csproj.CoreCompileInputs.cache
+C:\Users\maria\OneDrive\Documentos\3ro\Diseño de Sistemas\Silvestro-TP1-R\Circulo RH Negativo\Circulo RH Negativo\obj\Debug\Circulo RH Negativo.exe
+C:\Users\maria\OneDrive\Documentos\3ro\Diseño de Sistemas\Silvestro-TP1-R\Circulo RH Negativo\Circulo RH Negativo\obj\Debug\Circulo RH Negativo.pdb
+C:\Users\maria\OneDrive\Documentos\3ro\Diseño de Sistemas\Silvestro-TP1-R\Circulo RH Negativo\Circulo RH Negativo\bin\Debug\Circulo RH Negativo.exe.config
+C:\Users\maria\OneDrive\Documentos\3ro\Diseño de Sistemas\Silvestro-TP1-R\Circulo RH Negativo\Circulo RH Negativo\bin\Debug\Circulo RH Negativo.exe
+C:\Users\maria\OneDrive\Documentos\3ro\Diseño de Sistemas\Silvestro-TP1-R\Circulo RH Negativo\Circulo RH Negativo\bin\Debug\Circulo RH Negativo.pdb
