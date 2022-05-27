@@ -19,33 +19,26 @@ namespace Circulo_RH_Negativo
                 {
                     if (c.Categoria.ToLower() == var1.ToLower())
                     {
-
                         if (c.CantidadDonacionesUltimoAño < 2)
                         {
-
                             if (tipoDeSangre.ToLower() == c.GrupoSanguineo.ToLower())
                             {
-
-
-
                                 Console.WriteLine("Asociado/a: " + c.Nombre + " llamado/a a donar.");
                                 cantidadColectada = cantidadColectada + 1.5;
-
-
-
-
                             }
                             else
                             {
-                                Console.WriteLine("Disculpe, no podemos cumplir con sus requerimientos");
+                                Console.WriteLine("Disculpe, no podemos cumplir con sus requerimientos en este momento");
                             }
-
                         }
-
+                        
                     }
                 }
+
             }
-           
         }
     }
+           
 }
+    
+
